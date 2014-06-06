@@ -2,7 +2,7 @@ Application Main
 ----------------
 this file handles instantiating and 
 
-####Dependencies
+###Dependencies
 
     express = require 'express'
     stylus = require 'stylus'
@@ -86,4 +86,3 @@ this file handles instantiating and
 
 # Export application object
     module.exports = app
-

@@ -1,5 +1,4 @@
 require './specHelper'
-
 request = require 'supertest'
 app = require process.cwd() + '/.app'
 
