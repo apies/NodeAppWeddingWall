@@ -5,7 +5,7 @@ app = require process.cwd() + '/.app'
 
 describe 'General', ->
   describe 'Main page', ->
-    it "should be here", (done) ->
+    xit "should be here", (done) ->
       request(app)
         .get("/")
         .send( {} )
